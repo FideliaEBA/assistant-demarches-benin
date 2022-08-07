@@ -1,0 +1,86 @@
+[
+  {
+    "id": "casier-judiciaire",
+    "titre": "Obtenir son casier judiciaire (extrait B3)",
+    "mots_cles": "casier judiciaire bulletin extrait B3 antécédents judiciaires casier instantané tribunal justice",
+    "resume": "Le casier judiciaire se demande uniquement en ligne sur le portail service-public.bj. Depuis le 1er novembre 2026, les usagers déjà identifiés par l’administration peuvent l’obtenir instantanément, sans pièce justificative, grâce à leur NPI.",
+    "etapes": [
+      "Aller sur service-public.bj (vérifier que l’adresse est exacte avant de saisir des données ou de payer).",
+      "Se connecter avec son NPI.",
+      "Choisir le service « Casier judiciaire en instantané » (ou la fiche classique PS00373 si le service instantané n’est pas disponible pour vous).",
+      "Payer en ligne.",
+      "Télécharger le bulletin."
+    ],
+    "pieces": [
+      "Service instantané : aucune pièce à joindre si vos données sont déjà dans l’administration.",
+      "Procédure classique (Béninois nés au Bénin) : extrait d’acte de naissance sécurisé ou légalisé, avec adresse, profession, nombre d’enfants à charge et situation matrimoniale.",
+      "D’autres cas (par exemple un certificat de nationalité béninoise) peuvent être demandés : voir la fiche officielle."
+    ],
+    "cout": "1 900 FCFA, hors commissions éventuelles des opérateurs de paiement.",
+    "delai": "Immédiat pour le service instantané ; 72 h annoncées pour la procédure classique (parfois plus long en cas de forte demande).",
+    "a_savoir": "Le bulletin est valable 3 mois. Il se demande en ligne, plus au tribunal.",
+    "lien": "https://service-public.bj/public/services/service/PS00373",
+    "sources": ["service-public.bj (fiche PS00373)", "Communiqué du ministère de la Justice relayé par la presse béninoise, 2 novembre 2026"],
+    "verifie_le": "2026-11-02"
+  },
+  {
+    "id": "npi",
+    "titre": "Obtenir son NPI et son certificat NPI (CNPI / FID)",
+    "mots_cles": "NPI numéro personnel d’identification ANIP RAVIP CNPI FID certificat identifiant unique identité enrôlement RNPP récupérer retrouver numéro",
+    "resume": "Le NPI est l’identifiant unique attribué à chaque personne lors de l’enrôlement au Registre national des personnes physiques (RNPP). Il donne accès à l’essentiel des services de service-public.bj. Le certificat NPI (CNPI, aussi appelé FID) se demande gratuitement en ligne.",
+    "etapes": [
+      "Aller sur eservices.anip.bj.",
+      "Cocher la demande de certificat NPI (CNPI / FID).",
+      "Joindre la copie de votre acte de naissance et de votre récépissé RAVIP.",
+      "Valider la demande et télécharger le certificat."
+    ],
+    "pieces": ["Copie de l’acte de naissance", "Récépissé RAVIP"],
+    "cout": "Gratuit en ligne pour le certificat NPI.",
+    "delai": "Non précisé dans les sources consultées.",
+    "a_savoir": "Pour retrouver son NPI : application mobile ANIP BJ, plateforme eservices.anip.bj ou menu USSD *151#. En cas de problème, l’ANIP indique le 7054 (appel gratuit) ou un guichet ANIP.",
+    "lien": "https://eservices.anip.bj/",
+    "sources": ["gouv.bj : certificat NPI gratuit en ligne", "Guide pratique ANIP (eservices.anip.bj)"],
+    "verifie_le": "2026-11-02"
+  },
+  {
+    "id": "ifu",
+    "titre": "Obtenir son IFU (identifiant fiscal unique)",
+    "mots_cles": "IFU identifiant fiscal unique impôts fiscal contribuable immatriculation fiscale taxe entreprise commerce",
+    "resume": "L’IFU est l’identifiant fiscal des contribuables. Pour une personne physique, la demande se fait en ligne sur la plateforme des impôts. Depuis fin 2021, il suffit de renseigner son NPI et l’IFU peut être délivré en moins de 24 heures selon la presse béninoise.",
+    "etapes": [
+      "Obtenir d’abord son NPI (voir la fiche NPI).",
+      "Aller sur la plateforme ifu.impots.bj, menu « Demander IFU ».",
+      "Renseigner son NPI et ses informations, puis vérifier avant de cliquer sur « Valider ».",
+      "En cas de rejet, utiliser « Corriger ma demande d’IFU »."
+    ],
+    "pieces": [
+      "Personne physique : le NPI.",
+      "Entreprise, association ou ONG : des pièces supplémentaires (statuts, RCCM, arrêté de création…) : voir la plateforme."
+    ],
+    "cout": "Non précisé dans les sources consultées.",
+    "delai": "Moins de 24 heures annoncé en 2021 (à confirmer sur la plateforme).",
+    "a_savoir": "La procédure a évolué depuis 2020 : vérifie toujours sur la plateforme officielle.",
+    "lien": "http://ifu.impots.bj",
+    "sources": ["gouv.bj : « Tout savoir sur l’IFU » (2020)", "La Nouvelle Tribune, décembre 2021"],
+    "verifie_le": "2026-11-02"
+  },
+  {
+    "id": "documents-anip",
+    "titre": "Documents d’état civil et d’identité en ligne (ANIP)",
+    "mots_cles": "acte de naissance certificat de résidence certificat de coutume célibat CCC CIP carte d’identité CNIB biométrique état civil ANIP document appli mobile télécharger",
+    "resume": "L’application ANIP BJ et la plateforme eservices.anip.bj permettent de payer et télécharger en ligne plusieurs documents officiels, grâce au NPI.",
+    "etapes": [
+      "Télécharger l’application ANIP BJ ou aller sur eservices.anip.bj.",
+      "Se connecter avec son NPI.",
+      "Choisir le document voulu et payer en ligne.",
+      "Télécharger le document, dont l’authenticité peut être vérifiée dans l’application."
+    ],
+    "pieces": ["Le NPI. Selon le document, d’autres justificatifs peuvent être demandés : voir la plateforme."],
+    "cout": "Variable selon le document : le montant est affiché sur la plateforme avant paiement.",
+    "delai": "Non précisé dans les sources consultées.",
+    "a_savoir": "Documents proposés : acte de naissance (avec ou sans mention marginale), certificat de résidence, certificat de coutume et de célibat, certificat d’identification personnelle (CIP), carte nationale d’identité biométrique, certificat NPI (FID). Assistance : 7054 (appel gratuit).",
+    "lien": "https://eservices.anip.bj/",
+    "sources": ["Description de l’application ANIP BJ", "Guide pratique ANIP"],
+    "verifie_le": "2026-11-02"
+  }
+]

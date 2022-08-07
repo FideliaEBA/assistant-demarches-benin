@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assistant démarches — Bénin</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>Assistant démarches administratives</h1>
+    <p class="sub">Pose ta question sur une démarche au Bénin. Je te réponds à partir de fiches vérifiées, avec le lien officiel.</p>
+  </header>
+
+  <div id="chat" role="log" aria-live="polite"></div>
+
+  <div class="chips" id="chips"></div>
+
+  <form id="form" autocomplete="off">
+    <input id="q" type="text" placeholder="Ex. : comment avoir mon casier judiciaire ?" aria-label="Ta question" required>
+    <button type="submit">Envoyer</button>
+  </form>
+
+  <footer>Projet d’apprentissage. Les procédures changent : confirme toujours sur <a href="https://service-public.bj" target="_blank" rel="noopener">service-public.bj</a>. Aucune donnée personnelle n’est envoyée : tout se passe dans ton navigateur.</footer>
+</main>
+<script src="fiches.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
